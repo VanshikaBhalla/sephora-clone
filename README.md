@@ -1,0 +1,1 @@
+A frontend replica of Sephora's website, created as part of a frontend development task. This project focuses on replicating the site's visual elements and basic interactivity using HTML, CSS, and JavaScript.
