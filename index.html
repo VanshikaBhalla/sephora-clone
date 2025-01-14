@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Vanshika Bhalla">
+        <title>Sephora India</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <div id="nav">
+            <div id="nav-left">
+                <div id="nav-left-left">
+                    Sign In/Register
+                </div>
+                <div id="nav-left-rt">
+                    Beauty Pass
+                </div>
+            </div>
+            <div id="nav-rt">
+                <div id="nav-rt-rt1">
+                    Stores & Events
+                </div>
+                <div id="nav-rt-rt2">
+                    Wishlist
+                </div>
+                <div id="nav-rt-rt2">
+                    Bag
+                </div>
+            </div>
+        </div>
+        
+        <div id="top">
+            <div id="logo">
+                <img src="LOGO.png" alt="sephora-logo" id="logo-img">
+            </div>
+            <div id="area">
+                <div id="search">
+                    <input type="search" id="searchbox" placeholder="Search for bands and products">
+                    <button id="searchbutton"><img width="25" height="25" src="https://img.icons8.com/ios/50/FFFFFF/search--v1.png" alt="search--v1"/></button>
+                </div>
+                <div id="slideshow">
+                    <div class="slide">
+                        <div class="img1">
+                            <img src="logo2.png" class="logo2-img">
+                        </div>
+                        <div class="text">
+                            <div class="line1">FREE SAMPLES</div>
+                            <div class="line2">WITH EVERY PURCHASE</div>
+                        </div>
+                    </div>
+                    <div class="slide" id="slide2">
+                        <div class="img1">
+                            <img src="logo2.png" class="logo2-img">
+                        </div>
+                        <div class="text">
+                            <div class="line1">FREE SHIPPING</div>
+                            <div class="line2">ABOVE Rs999</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="top2">
+            <ul id="list">
+                <li>NEW</li>
+                <li>BRANDS</li>
+                <li>MAKEUP</li>
+                <li>HAIR</li>
+                <li>TOOLS & BRUSHES</li>
+                <li>BATH & BODY</li>
+                <li>FRAGRANCE</li>
+                <li>CLEAN</li>
+                <li>GIFTS</li>
+                <LI>SALE</LI>
+            </ul>
+        </div>
+        
+        <div id="slideshow2">
+            <div id="carousel">
+                <div id="carousel2">
+                    <div class="slides"><img src="c1.avif" alt="Image 1"></div>
+                    <div class="slides"><img src="c2.avif" alt="Image 2"></div>
+                    <div class="slides"><img src="c3.avif" alt="Image 3"></div>
+                    <div class="slides"><img src="c4.avif" alt="Image 4"></div>
+                </div>
+                <button class="carousel-btn prev" onclick="plusSlides(-1)">❮</button>
+                <button class="carousel-btn next" onclick="plusSlides(1)">❯</button>
+                <div id="carousel-dots">
+                    <span class="dot" onclick="showSlides(1)"></span>
+                    <span class="dot" onclick="showSlides(2)"></span>
+                    <span class="dot" onclick="showSlides(3)"></span>
+                    <span class="dot" onclick="showSlides(4)"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="blocks">
+            <div class="block" id="b1">NEW ARRIVALS</div>
+            <div class="block" id="b2">HOT & HAPPENING</div>
+            <div class="block" id="b3">BEAUTY UNDER 999</div>
+            <div class="block" id="b4">BESTSELLERS</div>
+            <div class="block" id="b5">BEST OF MAKEUP</div>
+            <div class="block" id="b6">EVERYDAY ESSENTIALS</div>
+        </div>
+        
+        <div class="banner">Shop by Brand</div>
+        <div class="blocks" id="blocks2">
+            <div class="block imgblock" id="b7"></div>
+            <div class="block imgblock" id="b8"></div>
+            <div class="block imgblock" id="b9"></div>
+            <div class="block imgblock" id="b10"></div>
+            <div class="block imgblock" id="b11"></div>
+            <div class="block imgblock" id="b12"></div>
+        </div>
+        
+        <div class="banner">Recommended for You</div>
+        <div class="carousel">
+            <div class="blocks products">
+                <div class="product block imgblock" id="p1"></div>
+                <div class="product block imgblock" id="p2"></div>
+                <div class="product block imgblock" id="p3"></div>
+                <div class="product block imgblock" id="p4"></div>
+                <div class="product block imgblock" id="p5"></div>
+                <div class="product block imgblock" id="p6"></div>
+                <div class="product block imgblock" id="p7"></div>
+                <div class="product block imgblock" id="p8"></div>
+                <div class="product block imgblock" id="p9"></div>
+                <div class="product block imgblock" id="p10"></div>
+            </div>
+            <button class="carousel-btn cb2 prev" onclick="plusProducts(-1)">&#10094;</button>
+            <button class="carousel-btn cb2 next" onclick="plusProducts(1)">&#10095;</button>
+        </div>
+        
+        <div id="adv">
+            <div id="g1" class="g"></div>
+            <div id="g2" class ="g"></div>
+            <div id="g3" class="g"></div>
+        </div>
+
+        <div id="cats">
+            <div class="banner" id="greytext">Shop Categories</div>
+            <div id = "cats2">
+                <div class="cc">
+                    <div class="c" id="cat1"></div>
+                    <div class="ct">EYEBROWS</div>
+                </div>
+                <div class="cc">
+                    <div class="c" id="cat2"></div>
+                    <div class="ct">MAKEUP</div>
+                </div>
+                <div class="cc">
+                    <div class="c" id="cat3"></div>
+                    <div class="ct">SKINCARE</div>
+                </div>
+                <div class="cc">
+                    <div class="c" id="cat4"></div>
+                    <div class="ct">FOUNDATION</div>
+                </div>
+                <div class="cc">
+                    <div class="c" id="cat5"></div>
+                    <div class="ct">FRAGRANCE</div>
+                </div>
+                <div class="cc">
+                    <div class="c" id="cat6"></div>
+                    <div class="ct">HAIRCARE</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="banner">Your New Obsession</div>
+        <div class="carousel">
+            <div class="blocks products products2">
+                <div class="product product2 block imgblock" id="p11"></div>
+                <div class="product product2 block imgblock" id="p12"></div>
+                <div class="product product2 block imgblock" id="p13"></div>
+                <div class="product product2 block imgblock" id="p14"></div>
+                <div class="product product2 block imgblock" id="p15"></div>
+                <div class="product product2 block imgblock" id="p16"></div>
+                <div class="product product2 block imgblock" id="p17"></div>
+                <div class="product product2 block imgblock" id="p18"></div>
+                <div class="product product2 block imgblock" id="p19"></div>
+                <div class="product product2 block imgblock" id="p20"></div>
+            </div>
+            <button class="carousel-btn cb2 prev" onclick="plusProducts2(-1)">&#10094;</button>
+            <button class="carousel-btn cb2 next" onclick="plusProducts2(1)">&#10095;</button>
+        </div>
+        
+        <div id="conclusion">
+            <div id="abt">
+                <ul id="list2" class="ls">
+                    <li class="heading">ABOUT US</li>
+                    <li>About Sephora</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Use</li>
+                    <li>Sitemap</li>
+                    <li>International</li>
+                </ul>
+            </div>
+            <div id="customercare">
+                <ul id="list3" class="ls">
+                    <li class="heading">CUSTOMER CARE</li>
+                    <li>FAQ</li>
+                    <li>Delivery</li>
+                    <li>Find a Store</li>
+                    <li>Beauty Services</li>
+                    <li>Contact Us</li>
+                </ul></div>
+            <div id="rewards">
+                <div class="heading">BEAUTY PASS REWARDS</div>
+                <div id="img1"></div>
+                <div class="heading" id="btn">EXPLORE BENEFITS</div>
+            </div>
+            <div id="pay2connect">
+                <div class="heading">CONNECT WITH US</div>
+                <div id="contact">
+                    <div id="fb" class="btn2"></div>
+                    <div id="insta" class="btn2"></div>
+                    <div id="tweet" class="btn2"></div>
+                    <div id="yt" class="btn2"></div>
+                </div>
+                <div class="heading">PAYMENT OPTIONS</div>
+                <div id="rows">
+                    <div id="row1">
+                        <div class="pay" id="pay1"></div>
+                        <div class="pay" id="pay2"></div>
+                        <div class="pay" id="pay3"></div>
+                        <div class="pay" id="pay4"></div>
+                    </div>
+                    <div id="row2">
+                        <div class="pay" id="pay5"></div>
+                        <div class="pay" id="pay6"></div>
+                        <div class="pay" id="pay7"></div>
+                        <div class="pay" id="pay8"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            © 2024 Sephora India<br>
+            <span id="vb">cloned by - Vanshika Bhalla</span>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
